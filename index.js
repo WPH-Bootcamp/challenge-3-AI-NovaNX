@@ -4,7 +4,7 @@
 const prompt = require("prompt-sync")({ sigint: true }); //using prompt-sync that has been imported for user input
 
 const validOperators = ["+", "-", "*", "/", "%", "**"];
-var calculationCount = 0; // tracks how many calculations have been completed
+let calculationCount = 0; // tracks how many calculations have been completed
 
 //Create a function `getValidNumberInput(promptMessage)` that takes a string as a prompt. Implement a `while` loop to repeatedly ask for input until a valid number is entered.
 function getValidNumberInput(promptMessage) {
